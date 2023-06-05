@@ -13,7 +13,7 @@ option = st.selectbox(
     ('강아지','고양이','말','토끼','코끼리'))
 
 st.write('내가 좋아하는 동물은 ',option,' 입니다.')
-# st.write(f' 좋아하는 동물은 {option} 입니다.')
+st.write(f' 좋아하는 동물은 {option} 입니다.')
 
 txt = st.text_area('자신을 소개해보세요.','''
 
